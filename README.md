@@ -1,7 +1,5 @@
 # MQS ERP - Agronegócio
 
-Este roadmap que organiza a implementação de um MVP bancário utilizando os princípios da Clean Architecture, garantindo separação de responsabilidades, escalabilidade e segurança.
-
 🚀 Roadmap de Implantação – MQS CRM Agro
 ## 1. Preparação
 #### Definir ambiente de hospedagem (AWS, Azure ou servidor local com Docker).
