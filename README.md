@@ -41,32 +41,9 @@ Este roadmap que organiza a implementação de um MVP bancário utilizando os pr
 #### Ajustar infraestrutura para suportar mais usuários (auto-scaling).
 #### Adicionar novos módulos (ex: integração com ERP agrícola, BI avançado).
 #### Revisar periodicamente segurança e performance.
-     
-<img width="1024" height="1536" alt="Copilot_20260423_060651" src="https://github.com/user-attachments/assets/62c6d17d-8405-446b-adf5-ea703ffd8384" />
 
-#### O diagrama de domínio bancário que integra as Entidades, Aggregates, Events, Interfaces e Value Objects em uma visão única.
+<img width="1536" height="1024" alt="Copilot_20260601_045203" src="https://github.com/user-attachments/assets/3dc49e0e-29a9-4ee5-b6c6-255495e04f72" />
 
-<img width="1536" height="1024" alt="Copilot_20260423_085455" src="https://github.com/user-attachments/assets/b942e951-1949-45ee-9feb-5c7ebf47dc78" />
-
-## O diagrama mostra:
-
-🟧 Account Aggregate — o agregado raiz que contém a entidade Account e a lista de Transactions.
-
-🔵 Account (Entidade) — atributos como AccountId, HolderName, Balance e métodos Deposit e Withdraw.
-
-🟩 Money (Value Object) — imutável, com operações Add e Subtract.
-
-⚪ Transaction (Entidade) — registra movimentações financeiras vinculadas à conta.
-
-🟨 Domain Events — AccountCreatedEvent e FundsTransferredEvent, disparados pelas entidades.
-
-➡️ Interfaces — contratos como IAccountRepository, ITransactionRepository e IEventPublisher que conectam o domínio à infraestrutura.
-
-Esse diagrama é essencial para documentar o núcleo do domínio e mostrar como os componentes se relacionam de forma clara e consistente.
-
-## o diagrama completo da arquitetura do MVP bancário, integrando todas as camadas — Domain, Application, Infrastructure e API — em uma visão única e coesa.
-
-<img width="1024" height="1536" alt="BCO 4c69f751-018b-4e26-a132-e7f361316f23" src="https://github.com/user-attachments/assets/eeaebe03-ecf4-4e96-9904-00171562f567" />
 
 O diagrama mostra:
 
