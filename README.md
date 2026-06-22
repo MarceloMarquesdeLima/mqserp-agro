@@ -17,8 +17,7 @@
 #### Implementar monitoramento com Prometheus e dashboards no Grafana.
 
 ## 4. Testes
-#### Testes unitários e de integração (Pytest).
-#### Testes de carga e desempenho (locust.io ou JMeter).
+#### Testes unitários e de integração (NUnit).
 #### Validação de permissões e níveis de acesso (Gestor, Vendedor, Comprador, Financeiro).
 
 ## 5. Deploy
